@@ -1,0 +1,64 @@
+html * {
+  font-family:$primary-fonts;
+}
+body {
+    &::before{
+    content: "";
+    width: 118px;
+    height: 1129px;
+    position: absolute;
+    top: 4px;
+    right: -1px;
+    background-color: #355C7D;
+    opacity: 50%;
+    z-index: -1;
+    }
+    padding-left:16px;
+    overflow-x: hidden;
+    color:black;
+    background-blend-mode: darken;
+} 
+
+//RESPONSIVE (LARGEDESKTOP)//
+html *{
+ @include breakpoint(largedesktop){
+     font-family:$primary-fonts;
+}
+}
+body {
+    @include breakpoint(largedesktop){
+    color:black;
+    max-width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
+    background:$white;
+    backdrop-filter:blur(100px);
+
+}}
+
+//RESPONSIVE (TABLET)//
+html *{
+ @include breakpoint(tablet){
+     font-family:$primary-fonts;
+}
+}
+body {
+    @include breakpoint(tablet){
+    color:black;
+    max-width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
+    background:$white;
+    backdrop-filter:blur(100px);
+       &::before{
+     content: "";
+     width: 250px;
+     height: 2400px;
+     position: absolute;
+     top: 4px;
+     right: 0px;
+     background-color:$navy-blue;
+     opacity: 50%;
+     z-index: -1;
+    }
+}}

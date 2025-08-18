@@ -1,0 +1,120 @@
+footer{
+  position: relative;
+    top: -262px;
+    p.copyrightn{
+      position: relative;
+      top: 283px;
+      bottom: 1px;
+      }
+     p{
+       position: relative;
+       top: 630px;
+       left: 20px;
+      }
+      p.copyr2{
+        position: relative;
+        top: 9px;
+        bottom: 1px;
+      }
+      p.fblog{
+       position: relative;
+       top: 411px;
+       bottom: 1px;
+       }
+}
+
+/*RESPONSIVE (tablet)*/
+footer{
+  @include breakpoint(tablet){
+    position: relative;
+    top: -262px;
+    p.copyrightn{
+      position: relative;
+      top: 283px;
+      bottom: 1px;
+      }
+    p.index{
+       position: relative;
+        top: 659px;
+        left: 20px;
+      }
+     p{
+       position: relative;
+        top: 169px;
+        left: 20px;
+      }
+      p.registro{
+        position: relative;
+        top: 1639px;
+        bottom: 1px;
+      }
+      p.copyr2{
+        position: relative;
+        position: relative;
+        top: 625px;
+        bottom: 1px;
+      }
+      p.fblog{
+       position: relative;
+       top: 1277px;
+       bottom: 1px;
+       }
+    }
+}
+
+/*RESPONSIVE (MOBILE)*/
+footer{
+  @include breakpoint(mobile){
+    position: relative;
+    top: -262px;
+    p.copyrightn{
+      position: relative;
+      top: 283px;
+      bottom: 1px;
+      }
+    p.index{
+       position: relative;
+        top: 47px;
+        left: 4px;
+       font-size: 12px;
+      }
+     p{
+       position: relative;
+        top: 455px;
+        left: -10px;
+        font-size: 12px;
+      }
+      p.footercontact{
+        position: relative;
+        top: 1189px;
+        left: -10px;
+        font-size: 12px;
+      }
+      p.registro{
+        position: relative;
+        top: 1440px;
+        bottom: 1px;
+      }
+      p.plogin{
+       position: relative;
+        top: 440px;
+        left: -10px;
+        font-size: 12px;
+      }
+      .fcursos{
+       position: relative;
+        top: 75px;
+        left: -7px;
+        font-size: 12px;
+      }
+      p.copyr2{
+       position: relative;
+        top: 576px;
+        bottom: 1px;
+      }
+      p.fblog{
+       position: relative;
+        top: 175px;
+       }
+    }
+}

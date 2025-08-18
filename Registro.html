@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Registro - Conque Crypto</title>
+  <link rel="stylesheet" href="C:\Users\lucy2\OneDrive\Documents\ProyectoHTML\Proyectos\css\style.css">
+  <meta name="description" content="Registrate para formar parte de nuestros cursos">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <figure>
+      <img src="C:\Users\lucy2\OneDrive\Documents\ProyectoHTML\Proyectos\img\664c5634a1dfc7c6526459ec_Conquer-Blocks-logo.avif" alt="Logo de Conquer Crypto" class="logo">
+      
+    </figure>
+    <nav>
+       <div class="container" onclick="myFunction(x)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Cursos.html">Cursos</a></li>
+        <li><a href="Contacto.html">Contacto</a></li>
+        <li><a href="Quienessomos.html">Quienes somos </a></li>
+        <li><a href="Blog.html">Blog</a></li>
+        <li class="ontop">Registro</li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1 class="registro1">Registrate </h1>
+    <p class="registro-p">Para poder acceder a nuestra academia necesitamos que te registres</p>
+    <form class="registro" action="post" enctype="multipart/form-data" >
+      <p>
+        <label for="Name">Nombre Completo</label>
+        <input type="text" name="Name" id="Name" placeholder="Nombre completo" required>
+      </p>
+      <p>
+        <label for="Surname">Apellidos</label>
+        <input type="text" name="Surname" id="Surname" placeholder="Apellidos" required>
+      </p>
+      <p>
+        <label for="Birthday">Fecha de Nacimiento</label>
+        <input type="date" name="birthday" id="Birthday" required>
+      </p>
+      <p>
+        <label for="Username">Nombre de usuario</label>
+        <input type="text" name="Username" id="Username" placeholder="Nombre de usuario" required>
+      <p>
+
+      <p>
+        <label for="Password">Contraseña</label>
+        <input type="password" name="Password" id="Password" placeholder="Contraseña" required>
+
+      <p>
+
+      <p>
+        <label for="Email">Email</label>
+        <input type="email" name="Email" id="Email" placeholder="Email" required>
+      </p>
+      <p>
+        <label for="address">Direccion</label>
+        <input type="text" name="address" id="address" placeholder="Direccion" required>
+      </p>
+      <p>
+        <label for="web">Pagina Web</label>
+        <input type="url" name="web" id="web" placeholder="URL" required>
+      </p>
+      <p>
+        <label for="photo">Foto</label>
+        <input type="file" name="photo" id="photo" accept="image/*" required>
+      </p>
+      <p>
+        <label for="bio">Biografia</label><br>
+        <textarea name="bio" id="bio" cols="30" rows="5"></textarea>
+      </p>
+      <p>
+        <button>Enviar</button>
+        <input type="reset" value="Borrar formulario">
+      </p>
+
+    </form>
+  </main>
+
+  <footer>
+    <p class="registro">@ Conquer Blocks 2025 - <a href="Aviso-legal.html">Aviso legal</a></p>
+  </footer>
+</body>
+
+</html>

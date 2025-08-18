@@ -1,0 +1,35 @@
+header {
+  @include breakpoint(mobile) {
+    display: flex;
+    padding-top: 20px;
+    figure{
+    img{
+     width: 155px;
+   }}
+}
+}
+//RESPONSIVE (LARGEDESKTOP)//
+header {
+    @include breakpoint(largedesktop){
+    display:flex;
+    gap:337px;
+    padding-top: 20px;
+    figure{
+    img{
+     width:300px;
+   }}
+
+}}
+
+//RESPONSIVE (TABLET)//
+header {
+    @include breakpoint(tablet){
+    display:flex;
+    gap:337px;
+    padding-top: 20px;
+    figure{
+    img{
+     width:200px;
+   }}
+
+}}
