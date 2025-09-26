@@ -1,35 +1,12 @@
-header {
-  @include breakpoint(mobile) {
-    display: flex;
-    padding-top: 20px;
-    figure{
-    img{
-     width: 155px;
-   }}
+header{
+    background: $white;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    
+    .logo {
+        height: 20px;
+        width: auto;
+        margin:auto;
+        display: block;
+    }
 }
-}
-//RESPONSIVE (LARGEDESKTOP)//
-header {
-    @include breakpoint(largedesktop){
-    display:flex;
-    gap:337px;
-    padding-top: 20px;
-    figure{
-    img{
-     width:300px;
-   }}
-
-}}
-
-//RESPONSIVE (TABLET)//
-header {
-    @include breakpoint(tablet){
-    display:flex;
-    gap:337px;
-    padding-top: 20px;
-    figure{
-    img{
-     width:200px;
-   }}
-
-}}

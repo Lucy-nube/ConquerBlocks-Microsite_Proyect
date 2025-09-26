@@ -1,72 +1,146 @@
 <!doctype html>
-<html lang="">
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Contacta con Nosotros - Conquer Crypto</title>
-  <link rel="stylesheet" href="C:\Users\lucy2\OneDrive\Documents\ProyectoHTML\Proyectos\css\style.css">
-  <meta name="description" content="Contacta con nosotros para resolver tus dudas y obtener más información sobre nuestros cursos.">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Contacta con Nosotros - Conquer Crypto</title>
+    <link rel="stylesheet" href="css\style.css">
+    <meta name="description" content="Contacta con nosotros para resolver tus dudas y obtener más información sobre nuestros cursos.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  </head>
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
- <link rel="preconnect" href="https://fonts.googleapis.com">
- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
- <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap" rel="stylesheet">
-</head>
-
-<body>
-  <header>
+ <body>
+  <header class="container-fluid">
     <figure>
-      <img src="C:\Users\lucy2\OneDrive\Documents\ProyectoHTML\Proyectos\img\664c5634a1dfc7c6526459ec_Conquer-Blocks-logo.avif" alt="Logo de Conquer Crypto" class="logo">
-      
+      <a href="index.html"><img src="img\Conquer-Blocks-logo.avif" alt="Logo de Conquer Crypto" class="logo "></a>
     </figure>
-    <nav>
-       <div class="container" onclick="myFunction(x)">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-      </div>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="Cursos.html">Cursos</a></li>
-        <li class="ontop">Contacto</li>
-        <li><a href="Quienessomos.html">Quienes somos </a></li>
-        <li><a href="Blog.html">Blog</a></li>
-        <li><a href="Registro.html">Registro</a></li>
-        <li><a href="login.html">Login</a></li>
-      </ul>
+    <nav class=" d-flex justify-content-space-between navbar navbar-expand-lg bg-body-tertiary p-2">
+    <a class="navbar-brand" href="#">Menu</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+   </button>
     </nav>
-  </header>
-<main >
-  <h1 class="contact-h1">Contacta con nosotros </h1>
-  <p class="contact-p">Si tienes alguna duda o pregunta, no dudes en ponerte en contacto con nosotros. Estaremos encantados de ayudarte.</p>
-  <form class="contact" action="post" enctype="multipart/form-data">
+         <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary"--> 
+   <nav class=" navbar navbar-expand-lg bg-body-tertiary p-2">
+     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+     <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Quienessomos.html">Quienes Somos</a>
+      </li>
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="Blog.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Blog
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="Noticia-tecnologiap.html">Tecnologias para ser Full..</a>
+          <a class="dropdown-item" href="Noticia-Queesun.html">¿Que es un ...?</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="Cursos.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Cursos
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="Curso-Fullstack.html">Curso Full-stack</a>
+          <a class="dropdown-item" href="Curso-InteligenciaA.html">Curso De Inteligencia Artificial</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="Contacto.html">Contacto<span class="text-bolder">📍</span></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="Registro.html">Registro</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="login.html">Login</a>
+      </li>
+     </ul>
+     <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+     </form>
+     </div>
+     </nav>
+    </header>
+<main class="text-center m-4">
+ <!--------------FORMULARIO CONTACTO--------------------->
+ <!------------------------------------------------------>
+  <section class="d-flex mt-3 align-items-center text-center" id="bg-contacto">
+    <div class="m-4">
+     <a href="index.html"><img class="w-75" src="img\Conquer-Blocks-logo.avif" alt="Logo de Conquer Crypto" class="logo"></a>
+     <p class=" mt-1 fw-bolder fs-3" style="color:#fdf9f2"><span class="text-primary">ESTAMOS</span> AQUI PARA AYUDARTE!</p>
+     </div>
+   <div class="ml-auto mr-auto">
+  <h1 id="titulo-formulario" class="text-center  mt-4" style="color:#fdf9f2">Contacta con nosotros </h1>
+  <p class="text-center  ml-3" style="color:#fdf9f2">Si tienes alguna duda o pregunta, no dudes en ponerte en contacto con nosotros. Estaremos encantados de <span class="text-primary">ayudarte.</span></p>
+  <form class="form-floating">
+      <div class="input-group">
+       <span class="input-group-text">Nombre y Apellido</span>
+       <input type="text" aria-label="First name" class="form-control">
+       <input type="text" aria-label="Last name" class="form-control">
+      </div>
     <p>
-      <label for="Name">Nombre Completo</label>
-      <input type="text" name="Name" id="Name" placeholder="Nombre completo" required>
+      <input type="email" class="form-control mt-4" style="font-family:Lobster, sans-serif" id="floatingInputValue" placeholder="Email@example.com">
     </p>
-    <p>
-      <label for="Email">Email</label>
-      <input type="email" name="Email" id="Email" placeholder="Email" required>
-    </p>
-    <p>
-      <label for="Message">Mensaje</label><br>
-      <textarea name="Message" id="Message" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
-    </p>
-    <p>
-      <button>Enviar Mensaje</button>
-      <input type="reset" value="Borrar">
-    </p>
-    <section class="map">
-      <h2>Puedes encontrarnos aqui</h2>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d85309.50035878793!2d7.290927201952989!3d48.073150662703455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x479165e40299b19f%3A0x4b0bf817b1b612b5!2sSEPHORA%20COLMAR%20CLES%2C%201%2F3%20Rue%20des%20Clefs%2C%2068000%20Colmar!3m2!1d48.0779092!2d7.3605591!5e0!3m2!1sen!2sfr!4v1744203429746!5m2!1sen!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="form-floating">
+    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+    <label for="floatingTextarea2 text-dark">Mensaje</label>
+    </div>
+    <div class="d-grid gap-2 mt-4">
+    <button class="btn btn-primary" type="button">Enviar Mensaje </button>
+    </div>
+    </div>
+    </div>
     </section>
-</main>
+    <section id="localizacion" class="border-top border-2">
+      <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d85309.50035878793!2d7.290927201952989!3d48.073150662703455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x479165e40299b19f%3A0x4b0bf817b1b612b5!2sSEPHORA%20COLMAR%20CLES%2C%201%2F3%20Rue%20des%20Clefs%2C%2068000%20Colmar!3m2!1d48.0779092!2d7.3605591!5e0!3m2!1sen!2sfr!4v1744203429746!5m2!1sen!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div>
+        <div class="wrapper">
+          <h2>Puedes encontrarnos aqui</h2>
+          <h2 class="text-primary mb-4 " id="typewriter"></h2>
+          <p class="fs-5 text-body"> Elegimos Colmar con el fin de estar cerca de nuestros clientes,
+            y ofrecerles una mejor experiencia de aprendizaje. Nuestra academia está ubicada en una zona céntrica y de fácil acceso,
+            lo que facilita a nuestros estudiantes llegar a nuestras instalaciones sin complicaciones.
+          </p>
+          <section class="d-flex" id="numeros-localizacion">
+            <div>
+              <p class="text-primary fs-5">248</p>
+              <p>Dias de Sol</p>
+            </div>
+            <div>
+              <p class="text-primary fs-5">100%</p>
+              <p>Aprobado</p>
+            </div>
+            <div>
+              <p class="text-primary fs-5">24 ºC</p>
+              <p>Temperatura</p>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+   </main>
 
-<footer>
-  <p class="footercontact">@ Conquer Blocks 2025 - <a href="Aviso-legal.html">Aviso legal</a></p>
-</footer>
-
-</body>
+   <footer>
+    <p class="text-white">@ Conquer Blocks 2025 - <a href="Aviso-legal.html">Aviso legal</a></p>
+   </footer>
+    
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="js\main.js"></script>
+  </body>
 
 </html>
